@@ -1,0 +1,13 @@
+#!/bin/bash
+clear
+echo Enter file name to copy
+read apple
+echo Enter file name to copy to
+read mango
+if 
+ cp $apple $mango >/dev/null  2>&1
+then
+echo file copied ok congrts!!
+else
+echo error
+fi 
