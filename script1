@@ -1,0 +1,27 @@
+#!/bin/bash
+clear
+echo -e "what is your name : \c"
+read name
+echo hello $name welcome to script1
+sleep 2
+clear
+echo - e " would you like to see a listing of your files ? [y/n]: \c"
+read yn
+if [$yn =y]
+then 
+ who
+fi
+ sleep 1
+echo - e " would you like to see who all are logged in ? [y/n]: \c"
+read yn
+if [$yn =y]
+then
+ who
+fi
+sleep 1
+echo - e " would you like to see which dir you are in ? "
+read yn
+if [$yn =y]
+then
+ pwd
+fi
